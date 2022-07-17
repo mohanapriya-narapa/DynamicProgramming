@@ -1,6 +1,6 @@
 package leetcode;
 
-public class coinChangingBottomUpApproach {
+public class FewestcoinChangingBottomUpApproach {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,6 +9,7 @@ public class coinChangingBottomUpApproach {
 	}
 
 	private static int coinsChange(int[] coins, int total) {
+		//tushar video for reference
 		// TODO Auto-generated method stub
 	int[] T=new int[total+1];
 	for(int i=1;i<=total;i++)
